@@ -5,6 +5,6 @@ class Book
     @title = title
   end
 
-attr_writer title
+attr_writer :title
 
 end
