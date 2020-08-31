@@ -9,5 +9,7 @@ class Book
     @title
   end
 
-  attr_reader :author
+  def author=(author)
+    @author = author
+  end 
 end
