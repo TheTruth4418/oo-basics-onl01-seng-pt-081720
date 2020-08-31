@@ -9,4 +9,5 @@ class Book
     @title
   end
 
+  attr_reader :author
 end
