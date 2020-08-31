@@ -9,8 +9,7 @@ class Shoe
 def cobble
   puts "Your shoe is as good as new!"
 
-  new_cond = Condition.new("new")
-  return new_cond
+  Condition = Condition.new("new")
 end
 
 end
