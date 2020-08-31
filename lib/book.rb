@@ -2,10 +2,9 @@
 
 class Book
   def initialize(title)
-    @title = title 
+    @title = title
   end
 
 attr_writer title
 
 end
-
